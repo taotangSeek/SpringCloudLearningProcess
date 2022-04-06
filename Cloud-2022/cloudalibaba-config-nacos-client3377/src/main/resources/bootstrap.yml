@@ -1,6 +1,6 @@
 # nacos配置
 server:
-  port: 3377
+  port: ${config.port}
 
 spring:
   application:
